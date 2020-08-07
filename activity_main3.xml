@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aboutbg"
+    android:padding="20dp"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="114dp"
+            android:paddingLeft="140sp"
+            android:paddingTop="50dp"
+            android:text="ABOUT"
+            android:textColor="#00BCD4"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif-condensed-light" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="347dp"
+            android:text="Periodic table contains all the elements discovered till now and are arranged in order of there atomic numbers.Here the formula and atomic number of the respective elements are displayed. Elements will will be displayed row wise and with forward movement of scroll bar respective columns of the periodic table will be displayed.Also the elements in the Lanthanoids and Antinoids series will be displayed at the end."
+            android:textColor="#FFFFFF"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="107dp"
+            android:clickable="true"
+            android:onClick="moveToNext2"
+            android:paddingLeft="280dp"
+            android:paddingTop="60dp"
+            android:text="Next"
+            android:textColor="#F44336"
+            android:textSize="25dp" />
+    </LinearLayout>
+</RelativeLayout>
